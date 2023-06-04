@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Editor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Code Editor</h1>
+    </header>
+
+    <div class="editors-wrapper">
+      <div class="editor active" id="html-editor">
+        <div class="editor-header">
+          <h2>HTML</h2>
+        </div>
+        <textarea placeholder="Enter HTML code here..."></textarea>
+      </div>
+      <div class="editor" id="css-editor">
+        <div class="editor-header">
+          <h2>CSS</h2>
+        </div>
+        <textarea placeholder="Enter CSS code here..."></textarea>
+      </div>
+      <div class="editor" id="js-editor">
+        <div class="editor-header">
+          <h2>JavaScript</h2>
+        </div>
+        <textarea placeholder="Enter JavaScript code here..."></textarea>
+      </div>
+    </div>
+
+    <div class="output">
+      <div class="output-header">
+        <h2>Output</h2>
+      </div>
+      <iframe id="output-frame"></iframe>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
